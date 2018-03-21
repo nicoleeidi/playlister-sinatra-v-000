@@ -114,6 +114,7 @@ describe "Song Forms" do
       it "has a checkbox element on the form" do
         expect(page.body).to include("checkbox")
       end
+      binding.pru
 
       it "updates the song's genres" do
         uncheck "New Age Garbage"
